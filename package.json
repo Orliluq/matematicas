@@ -1,6 +1,6 @@
 {
   "name": "@orliluq/matematicas",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Una calculadora simple implementada en JavaScript que permite realizar operaciones básicas.",
   "main": "src/index.js",
   "type": "commonjs",
