@@ -5,7 +5,7 @@ Una calculadora simple implementada en JavaScript que permite realizar operacion
 ## Instalación
 
 ```bash
-npm install matematicas
+npm i @orliluq/matematicas
 ```
 
 ## Características
@@ -51,11 +51,12 @@ matematicas/
 └── LICENSE
 ```
 
-# Futuras mejoras
+# Mejoras
 - Agregar interfaz gráfica con HTML/CSS
-- Crear pruebas automatizadas con Jest
-- Convertir en módulo NPM
-
 <img src="/assets/img.jpg" alt="calculadora" style="width: 100%; margin: 0 auto;"> 
 
+- Crear pruebas automatizadas con Jest
 <img src="/assets/test.jpg" alt="calculadora" style="width: 100%; margin: 0 auto;"> 
+
+- Convertir en módulo NPM
+[![npm version](https://img.shields.io/npm/v/@orliluq/matematicas.svg)](https://www.npmjs.com/package/@orliluq/matematicas)
