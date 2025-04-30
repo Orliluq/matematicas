@@ -2,6 +2,12 @@
 
 Una calculadora simple implementada en JavaScript que permite realizar operaciones básicas.
 
+## Instalación
+
+```bash
+npm install matematicas
+```
+
 ## Características
 
 - Operaciones disponibles: `suma`, `resta`, `multiplicación`, `división`
@@ -26,16 +32,23 @@ Edita `index.html` o usa consola del navegador:
   console.log(dividir(6, 2)); // 3
 </script>
 ```
+```
+const { sumar, dividir } = require('matematicas');
+console.log(sumar(2,3)); // 5
+console.log(dividir(5,0)); // '💥'
+```
 
 # Estructura del Proyecto
 ```
-MATEMATICAS/
-├── assets/
+matematicas/              
 ├── src/
-│   ├── calculadora.js
-│   ├── index.html
-│   └── style.css
-└── README.md
+│   ├── calculadora.js      # implementaciones de funciones
+│   └── index.js            # punto de entrada del módulo
+├── test/
+│   └── calculadora.test.js # Pruebas automatizadas con Jest
+├── package.json
+├── README.md
+└── LICENSE
 ```
 
 # Futuras mejoras
@@ -44,3 +57,5 @@ MATEMATICAS/
 - Convertir en módulo NPM
 
 <img src="/assets/img.jpg" alt="calculadora" style="width: 100%; margin: 0 auto;"> 
+
+<img src="/assets/test.jpg" alt="calculadora" style="width: 100%; margin: 0 auto;"> 

@@ -11,3 +11,5 @@ function dividir(a, b) {
   if (b === 0) return '💥';
   return a / b;
 }
+
+module.exports = { sumar, restar, multiplicar, dividir };
