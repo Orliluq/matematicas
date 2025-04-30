@@ -38,3 +38,5 @@ calculadora-js/
 - Agregar interfaz gráfica con HTML/CSS
 - Crear pruebas automatizadas con Jest
 - Convertir en módulo NPM
+
+![alt text](img.jpg)
