@@ -1,6 +1,6 @@
 {
   "name": "@orliluq/matematicas",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Una calculadora simple implementada en JavaScript que permite realizar operaciones básicas.",
   "main": "src/index.js",
   "type": "commonjs",
@@ -14,11 +14,7 @@
   ],
   "scripts": {
     "build": "echo 'No build step required for CommonJS module'",
-    "test": "jest",
-    "prepare": "npm test"
-  },
-  "publishConfig": {
-    "access": "public"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -32,6 +28,9 @@
   ],
   "author": "Orli Dun",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   }

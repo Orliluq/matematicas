@@ -32,8 +32,10 @@ Edita `index.html` o usa consola del navegador:
   console.log(dividir(6, 2)); // 3
 </script>
 ```
-```
-const { sumar, dividir } = require('matematicas');
+## Uso
+
+```js
+const { sumar, dividir } = require('@orliluq/matematicas');
 console.log(sumar(2,3)); // 5
 console.log(dividir(5,0)); // '💥'
 ```
@@ -59,4 +61,4 @@ matematicas/
 <img src="/assets/test.jpg" alt="calculadora" style="width: 100%; margin: 0 auto;"> 
 
 - Convertir en módulo NPM
-[![npm version](https://img.shields.io/npm/v/@orliluq/matematicas.svg)](https://www.npmjs.com/package/@orliluq/matematicas)
+[![npm version ](https://img.shields.io/npm/v/@orliluq/matematicas.svg)](https://www.npmjs.com/package/@orliluq/matematicas)
