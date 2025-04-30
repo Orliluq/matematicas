@@ -13,6 +13,7 @@
     "src"
   ],
   "scripts": {
+    "build": "echo 'No build step required for CommonJS module'",
     "test": "jest",
     "prepare": "npm test"
   },
