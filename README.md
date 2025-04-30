@@ -29,8 +29,12 @@ Edita `index.html` o usa consola del navegador:
 
 # Estructura del Proyecto
 ```
-calculadora-js/
-├── calculadora.js
+MATEMATICAS/
+├── assets/
+├── src/
+│   ├── calculadora.js
+│   ├── index.html
+│   └── style.css
 └── README.md
 ```
 
@@ -39,4 +43,4 @@ calculadora-js/
 - Crear pruebas automatizadas con Jest
 - Convertir en módulo NPM
 
-![alt text](img.jpg)
+<img src="/assets/img.jpg" alt="calculadora" style="width: 100%; margin: 0 auto;"> 
